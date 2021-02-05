@@ -1,0 +1,19 @@
+.bg-white {
+  background-color: #fff;
+}
+.box-auth {
+  height: 100vh;
+  width: 70%;
+}
+.image {
+  width: 80%;
+  height: auto;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.full-width {
+  width: 100%;
+}
