@@ -1,0 +1,7 @@
+.full-width {
+  width: 100%;
+}
+.list-history {
+  max-height: 20vh;
+  overflow-x: auto;
+}
