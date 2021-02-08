@@ -3,10 +3,12 @@ import { getToken } from "~/services/auth";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import { LAST_FM_API } from "~/config/api";
+
 toast.configure();
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: LAST_FM_API,
 });
 
 api.interceptors.request.use(async (config) => {
