@@ -6,8 +6,9 @@
   width: 70%;
 }
 .image {
-  width: 80%;
+  width: 70%;
   height: auto;
+  border: 125px;
 }
 
 .flex-1 {
@@ -16,4 +17,10 @@
 
 .full-width {
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .image-section {
+    flex: 0;
+  }
 }
